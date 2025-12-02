@@ -50,6 +50,8 @@ from digida_internal_financial.tbl_sern_profile_journey_m102025
 
 on calls_history.mobile_no = profile_journey.access_method_num
 
+)
+
 ----------------------------------------------------------------------------------------------------------
 
 %sql
@@ -114,8 +116,4 @@ on calls_history.mobile_no = profile_journey.access_method_num
 select*
 from digida_common.trn_calls_history_profile_journey
 
-----------------------------------------------------------------------------------------------------------
 
-
-
-)
